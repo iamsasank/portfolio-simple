@@ -63,6 +63,6 @@ To collect production data, both features must also be enabled in the Vercel das
 
 ## Notes
 
-- Google Fonts are loaded from `fonts.googleapis.com` and `fonts.gstatic.com`
+- Critical fonts are self-hosted from `public/fonts/` and preloaded in `index.html`
 - Security headers and Content Security Policy are configured in `vercel.json`
 - Static asset caching is handled by Vercel automatically
